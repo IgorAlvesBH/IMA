@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xpto", "Xpto\Xpto.csproj", "{A438C76C-F3F5-41A1-915F-085AC5E0384F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xpto.Tests", "Xpto.Tests\Xpto.Tests.csproj", "{687CF50A-7F89-464D-B471-C3571C16DCB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{363BDF51-E6E7-4EDE-ACBD-9968FF6AC8FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A9732C5B-748C-467B-A829-2BC1F02BF20E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{2E0A1FE0-DEDB-4B78-8D9F-87E0A3373FFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{B9698725-B49F-48DC-9C01-8F39D68B7FC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{639A9B56-3B8A-4869-9A4E-0B81EA144F00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xpto.Domain", "ProjetoModeloDDD.Domain\Xpto.Domain.csproj", "{89972762-70E2-4435-ACFB-7AC8418266E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xpto.Infra.Data", "ProjetoModeloDDD.Infra.Data\Xpto.Infra.Data.csproj", "{1AB156F9-8A73-4541-95C3-09B3A09261E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XptoApplication", "XptoApplication\XptoApplication.csproj", "{D302C504-05A8-4027-AE88-118708633EEB}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://imatheproject.visualstudio.com/defaultcollection
+		SccProjectUniqueName0 = ProjetoModeloDDD.Domain\\Xpto.Domain.csproj
+		SccProjectTopLevelParentUniqueName0 = Xpto.sln
+		SccProjectName0 = ProjetoModeloDDD.Domain
+		SccAuxPath0 = https://imatheproject.visualstudio.com/defaultcollection
+		SccLocalPath0 = ProjetoModeloDDD.Domain
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = ProjetoModeloDDD.Infra.Data\\Xpto.Infra.Data.csproj
+		SccProjectTopLevelParentUniqueName1 = Xpto.sln
+		SccProjectName1 = ProjetoModeloDDD.Infra.Data
+		SccAuxPath1 = https://imatheproject.visualstudio.com/defaultcollection
+		SccLocalPath1 = ProjetoModeloDDD.Infra.Data
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A438C76C-F3F5-41A1-915F-085AC5E0384F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A438C76C-F3F5-41A1-915F-085AC5E0384F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A438C76C-F3F5-41A1-915F-085AC5E0384F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A438C76C-F3F5-41A1-915F-085AC5E0384F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{687CF50A-7F89-464D-B471-C3571C16DCB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{687CF50A-7F89-464D-B471-C3571C16DCB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{687CF50A-7F89-464D-B471-C3571C16DCB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{687CF50A-7F89-464D-B471-C3571C16DCB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89972762-70E2-4435-ACFB-7AC8418266E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89972762-70E2-4435-ACFB-7AC8418266E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89972762-70E2-4435-ACFB-7AC8418266E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89972762-70E2-4435-ACFB-7AC8418266E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AB156F9-8A73-4541-95C3-09B3A09261E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AB156F9-8A73-4541-95C3-09B3A09261E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AB156F9-8A73-4541-95C3-09B3A09261E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AB156F9-8A73-4541-95C3-09B3A09261E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D302C504-05A8-4027-AE88-118708633EEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D302C504-05A8-4027-AE88-118708633EEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D302C504-05A8-4027-AE88-118708633EEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D302C504-05A8-4027-AE88-118708633EEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A438C76C-F3F5-41A1-915F-085AC5E0384F} = {363BDF51-E6E7-4EDE-ACBD-9968FF6AC8FE}
+		{687CF50A-7F89-464D-B471-C3571C16DCB1} = {A9732C5B-748C-467B-A829-2BC1F02BF20E}
+		{89972762-70E2-4435-ACFB-7AC8418266E5} = {B9698725-B49F-48DC-9C01-8F39D68B7FC8}
+		{1AB156F9-8A73-4541-95C3-09B3A09261E2} = {639A9B56-3B8A-4869-9A4E-0B81EA144F00}
+		{D302C504-05A8-4027-AE88-118708633EEB} = {2E0A1FE0-DEDB-4B78-8D9F-87E0A3373FFC}
+	EndGlobalSection
+EndGlobal

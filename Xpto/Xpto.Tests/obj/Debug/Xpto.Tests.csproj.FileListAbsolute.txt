@@ -1,0 +1,10 @@
+C:\IMA\Xpto\Xpto.Tests\bin\Debug\Xpto.Tests.dll
+C:\IMA\Xpto\Xpto.Tests\bin\Debug\Xpto.Tests.pdb
+C:\IMA\Xpto\Xpto.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\IMA\Xpto\Xpto.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\IMA\Xpto\Xpto.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\IMA\Xpto\Xpto.Tests\obj\Debug\Xpto.Tests.csprojResolveAssemblyReference.cache
+C:\IMA\Xpto\Xpto.Tests\obj\Debug\Xpto.Tests.dll
+C:\IMA\Xpto\Xpto.Tests\obj\Debug\Xpto.Tests.pdb
+C:\IMA\Xpto\Xpto.Tests\bin\Debug\ProjetoModeloDDD.Domain.dll
+C:\IMA\Xpto\Xpto.Tests\bin\Debug\ProjetoModeloDDD.Domain.pdb
