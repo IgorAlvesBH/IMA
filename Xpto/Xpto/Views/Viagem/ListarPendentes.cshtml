@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Xpto.ViewModel.ViagemViewModel>
+
+@{
+  ViewBag.Title = "Viagens Pendentes de avaliação";
+}
+<h4>Viagens pendentes de avaliação</h4>
+<table class="table">
+  <tr>
+    <th>
+      @Html.DisplayNameFor(model => model.DataInicio)
+    </th>
+    <th>
+      @Html.DisplayNameFor(model => model.DataFim)
+    </th>
+    <th>
+      @Html.DisplayName("Cliente")
+    </th>
+    <th>
+      @Html.DisplayName("Destino")
+    </th>
+    <th>
+      @Html.DisplayName("Status avaliação")
+    </th>
+    <th></th>
+  </tr>
+
+  @foreach (var item in Model)
+  {
+    <tr>
+      <td>
+        @Html.DisplayFor(modelItem => item.DataInicio)
+      </td>
+      <td>
+        @Html.DisplayFor(modelItem => item.DataFim)
+      </td>
+      <td>
+        @Html.DisplayFor(modelItem => item.Cliente.Nome)
+      </td>
+      <td>
+        @Html.DisplayFor(modelItem => item.Destino.Nome)
+      </td>
+      <td>
+        @Html.DisplayFor(modelItem => item.Avaliacao)
+      </td>
+      <td>
+        @Html.ActionLink("Editar", "Edit", new { id = item.IdViagem }) |
+        @Html.ActionLink("Detalhes", "Details", new { id = item.IdViagem }) |
+      </td>
+    </tr>
+  }
+
+</table>

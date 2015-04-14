@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Ajuda sobre o sistema";
+}
+<h3>Login na aplicação:</h3>
+<p>CPF: 123.456.789-12 (É necessário informar exatamente dessa forma) - E-mail: joao@xpto.com</p>
+<h3>Cliente informar o nível de satisfação da viagem realizada:</h3>
+<p> Acessar a opção "Preencher avaliações pendentes" onde é necessário estar logado. Caso não encontre esse item, acesse: //Servidor/Viagem/ListarPendentes onde servidor é o local onde o site está</p>
+<h3>Diretores consultarem os destinos melhores ou piores avaliados:</h3>
+<p>Acessar a opção "Histórico de avaliações"</p>
+<h3>Gerando dados importados de base externa</h3>
+<p>Para simular esse caso, por favor acesse o arquivo configuration.cs, essa classe é responsável por incluir os dados na base. 
+   Para criar o banco de dados com as informações, acesse no VS a opção "Package Manager Console" e execute o comando - Update-Database -Verbose (Base é SQL Server)</p>
+<h3>BUG´s pendentes de ajuste</h3>
+<p> Infelizmente em função do tempo, alguns bugs não pude ajustar, são eles:</p>
+<li>No preenchimento da avaliação, é necessário ajustar os valores dos campos DateTime</li>
+<li>O valor do campo de avaliação precisa ser exatamente igual ao valor do Enum correspondente</li>
