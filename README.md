@@ -26,7 +26,11 @@ Não optei pelo MEAN Stack em função do tempo para desenvolver o app, dessa fo
 
 7. Executar o comando update-database (Será criado o banco de dados no final da execução)
 
+![CreateDataBase](/Minutrade/screens/CreateDataBase.png?raw=true "CreateDataBase")
+
 8. Definir a porta que o client vai poder ter acesso, para isto, acessar o projeto "01 - Web | MinutradeApp | App_Start | WebApiConfig.cs". Na variável corsAttr, certificar que o caminho é o mesmo de onde a parte client será executada.
+
+![Client_Url_Permission](/Minutrade/screens/Client_Url_Permission.png?raw=true "Client_Url_Permission")
 
 9. A parte client está disponível no caminho "Minutrade | MinutradeApp | Client"
 
@@ -34,5 +38,34 @@ Não optei pelo MEAN Stack em função do tempo para desenvolver o app, dessa fo
 
 11. Executar a aplicação na parte server e client.
 
+##API
+Todos os dados são retornados no formato JSon, abaixo os serviços:
 
+***GET* /clients**
+Não possui parâmetros, retorna uma lista com todos os registros da base.
 
+***GET* /clients/CPF**
+Retorna o cliente de acordo com o CPF informado. 
+
+***PUT* /clients/Client**
+Atualiza a entidade cliente
+
+***PUT* /clients/CPF**
+Remove o cliente de acordo com o CPF informado.
+
+## Teste
+Abaixo a imagem do teste de integração e unidade criados:
+![TestExplorer](/Minutrade/screens/TestExplorer.png?raw=true "TestExplorer")
+
+##Aplicação em execução
+- Tela inicial:
+![Index](/Minutrade/screens/Index.png?raw=true "Index")
+
+-Detalhe:
+![View](/Minutrade/screens/View.png?raw=true "View")
+
+-Edição:
+![Edit](/Minutrade/screens/Edit.png?raw=true "Edit")
+
+-Inclusão:
+![New](/Minutrade/screens/New.png?raw=true "New")
