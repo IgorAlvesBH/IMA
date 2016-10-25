@@ -1,0 +1,10 @@
+<form class="form-horizontal" role="form" ng-submit="addClient()">    
+<h3>Dados pessoais:</h3>
+    <div class="form-group">
+    <label for="Cpf" class="col-sm-2 control-label">CPF:</label>
+    <div class="col-sm-10">
+        <input type="text" name="cpf" mask="999.999.999-99" ng-model="client.Cpf" class="form-control" id="cpf" placeholder="Informe o CPF" required/>
+    </div>
+</div>    
+    <div ng-include="'partials/_form.html'"></div>
+</form>

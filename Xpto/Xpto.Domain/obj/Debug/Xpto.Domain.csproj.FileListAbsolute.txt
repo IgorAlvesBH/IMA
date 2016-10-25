@@ -1,9 +1,0 @@
-C:\IMA\Xpto\ProjetoModeloDDD.Domain\bin\Debug\Xpto.Domain.dll
-C:\IMA\Xpto\ProjetoModeloDDD.Domain\bin\Debug\Xpto.Domain.pdb
-C:\IMA\Xpto\ProjetoModeloDDD.Domain\obj\Debug\Xpto.Domain.csprojResolveAssemblyReference.cache
-C:\IMA\Xpto\ProjetoModeloDDD.Domain\obj\Debug\Xpto.Domain.dll
-C:\IMA\Xpto\ProjetoModeloDDD.Domain\obj\Debug\Xpto.Domain.pdb
-C:\IMA\Xpto\Xpto.Domain\bin\Debug\Xpto.Domain.dll
-C:\IMA\Xpto\Xpto.Domain\bin\Debug\Xpto.Domain.pdb
-C:\IMA\Xpto\Xpto.Domain\obj\Debug\Xpto.Domain.dll
-C:\IMA\Xpto\Xpto.Domain\obj\Debug\Xpto.Domain.pdb

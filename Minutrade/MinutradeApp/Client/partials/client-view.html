@@ -1,0 +1,72 @@
+<table class="table clienttable">
+    <tr>
+        <td><h3>Dados pessoais</h3></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>CPF:</td>
+        <td>{{client.Cpf}}</td>
+    </tr>    
+    <tr>
+        <td>Nome:</td>
+        <td>{{client.Name}}</td>
+    </tr>
+    <tr>
+        <td>E-mail:</td>
+        <td>{{client.Email}}</td>
+    </tr>    
+    <tr>
+        <td>Celular:</td>
+        <td>{{client.CellPhone}}</td>
+    </tr>
+    <tr>
+        <td>Telefone Fixo:</td>
+        <td>{{client.Phone}}</td>
+    </tr>    
+    <tr>
+        <td>Estado Civil:</td>
+        <td>{{client.MaritalStatus}}</td>
+    </tr>
+</table>
+
+<table class="table clienttable">
+    <tr>
+        <td><h3>Endereço:</h3></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Rua/Av:</td>
+        <td>{{client.Street}}</td>
+    </tr>
+    <tr>
+        <td>Bairro:</td>
+        <td>{{client.District}}</td>
+    </tr>    
+    <tr>
+        <td>Número:</td>
+        <td>{{client.Number}}</td>
+    </tr>
+    <tr>
+        <td>Complemento:</td>
+        <td>{{client.Complement}}</td>
+    </tr>
+    <tr>
+        <td>Cep:</td>
+        <td>{{client.ZipCode}}</td>
+    </tr>
+    <tr>
+        <td>Cidade:</td>
+        <td>{{client.City}}</td>
+    </tr>
+    <tr>
+        <td>Estado:</td>
+        <td>{{client.State}}</td>
+    </tr>
+    <tr>
+        <td>País:</td>
+        <td>{{client.Country}}</td>
+    </tr>    
+</table>
+<div>
+    <a class="btn btn-primary" ui-sref="editClient({id:client.Cpf})">Editar</a>
+</div>

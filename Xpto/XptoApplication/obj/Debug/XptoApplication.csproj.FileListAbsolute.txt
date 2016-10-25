@@ -1,7 +1,0 @@
-C:\IMA\Xpto\XptoApplication\obj\Debug\XptoApplication.csprojResolveAssemblyReference.cache
-C:\IMA\Xpto\XptoApplication\bin\Debug\XptoApplication.dll
-C:\IMA\Xpto\XptoApplication\bin\Debug\XptoApplication.pdb
-C:\IMA\Xpto\XptoApplication\obj\Debug\XptoApplication.dll
-C:\IMA\Xpto\XptoApplication\obj\Debug\XptoApplication.pdb
-C:\IMA\Xpto\XptoApplication\bin\Debug\Xpto.Domain.dll
-C:\IMA\Xpto\XptoApplication\bin\Debug\Xpto.Domain.pdb

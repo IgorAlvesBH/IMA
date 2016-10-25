@@ -1,0 +1,15 @@
+C:\Minutrade\MinutradeApp\MinutradeApp.Data\bin\Debug\MinutradeApp.Data.dll
+C:\Minutrade\MinutradeApp\MinutradeApp.Data\bin\Debug\MinutradeApp.Data.pdb
+C:\Minutrade\MinutradeApp\MinutradeApp.Data\obj\Debug\MinutradeApp.Data.csprojResolveAssemblyReference.cache
+C:\Minutrade\MinutradeApp\MinutradeApp.Data\obj\Debug\MinutradeApp.Data.dll
+C:\Minutrade\MinutradeApp\MinutradeApp.Data\obj\Debug\MinutradeApp.Data.pdb
+C:\Minutrade\MinutradeApp\MinutradeApp.Data\bin\Debug\MinutradeApp.Data.dll.config
+C:\Minutrade\MinutradeApp\MinutradeApp.Data\bin\Debug\EntityFramework.dll
+C:\Minutrade\MinutradeApp\MinutradeApp.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Minutrade\MinutradeApp\MinutradeApp.Data\bin\Debug\MinutradeApp.Domain.dll
+C:\Minutrade\MinutradeApp\MinutradeApp.Data\bin\Debug\MinutradeApp.Domain.pdb
+C:\Minutrade\MinutradeApp\MinutradeApp.Data\bin\Debug\EntityFramework.xml
+C:\Minutrade\MinutradeApp\MinutradeApp.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Minutrade\MinutradeApp\MinutradeApp.Data\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Minutrade\MinutradeApp\MinutradeApp.Data\bin\Debug\System.Data.SqlServerCe.dll
+C:\Minutrade\MinutradeApp\MinutradeApp.Data\bin\Debug\EntityFramework.SqlServerCompact.xml

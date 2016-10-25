@@ -1,0 +1,5 @@
+C:\Minutrade\MinutradeApp\MinutradeApp.Domain\bin\Debug\MinutradeApp.Domain.dll
+C:\Minutrade\MinutradeApp\MinutradeApp.Domain\bin\Debug\MinutradeApp.Domain.pdb
+C:\Minutrade\MinutradeApp\MinutradeApp.Domain\obj\Debug\MinutradeApp.Domain.csprojResolveAssemblyReference.cache
+C:\Minutrade\MinutradeApp\MinutradeApp.Domain\obj\Debug\MinutradeApp.Domain.dll
+C:\Minutrade\MinutradeApp\MinutradeApp.Domain\obj\Debug\MinutradeApp.Domain.pdb

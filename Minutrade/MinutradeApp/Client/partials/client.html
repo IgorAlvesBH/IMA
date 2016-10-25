@@ -1,0 +1,18 @@
+<a ui-sref="newClient" class="btn-primary btn-lg nodecoration">Incluir cliente</a>
+<table class="table clienttable">
+    <tr>
+        <td><h3>Clientes cadastrados</h3></td>
+        <td></td>
+    </tr>
+    <td>Nome</td>
+    <td>Cpf</td>
+    <td>Ações</td>
+    <tr ng-repeat="client in clients">
+        <td>{{client.Name}}</td>
+        <td>{{client.Cpf}}</td>
+        <td>
+            <a class="btn btn-primary" ui-sref="viewClient({id:client.Cpf})">Detalhar</a>
+            <a class="btn btn-danger" ng-click="deleteClient(client)">X</a>
+        </td>
+    </tr>
+</table>
