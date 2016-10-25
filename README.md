@@ -69,3 +69,7 @@ Abaixo a imagem do teste de integração e unidade criados:
 
 -Inclusão:
 ![New](/Minutrade/screens/New.png?raw=true "New")
+
+- Parte server:
+Url para retornar os dados:
+http://localhost:58723/api/Client
