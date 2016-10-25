@@ -16,6 +16,8 @@ Não optei pelo MEAN Stack em função do tempo para desenvolver o app, dessa fo
 
 3. Acessar o projeto MinutradeApp.Data localizado na pasta "04 - Data" e em seguida abrir o arquivo SqlRepository.cs e definir os dados de acesso ao SQL Server (Se executar a aplicação pelo VS não é preciso executar este passo).
 
+![SqlConnection](/screens/SqlConnection.png?raw=true "SqlConnection")
+
 4. Certificar que a string de conexão com o banco está correta.
 
 5. Acessar on VS o caminho "View | Other windows e clicar em Package Manager Console"
