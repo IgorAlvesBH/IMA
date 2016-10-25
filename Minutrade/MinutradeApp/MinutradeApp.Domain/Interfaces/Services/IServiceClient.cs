@@ -36,5 +36,11 @@ namespace MinutradeApp.Domain.Interfaces.Services
     /// </summary>
     /// <param name="cpf"></param>
     int DeleteClient(string cpf);
+    /// <summary>
+    /// Valida se todos os campos do endereço estão preenchidos
+    /// </summary>
+    /// <param name="adress">objeto a ser validado</param>
+    /// <returns>Retorna verdadeiro se todos os campos estiverem preenchidos</returns>
+    bool IsAdressValid(Adress adress);
   }
 }

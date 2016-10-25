@@ -3,3 +3,8 @@ C:\Minutrade\MinutradeApp\MinutradeApp.Domain\bin\Debug\MinutradeApp.Domain.pdb
 C:\Minutrade\MinutradeApp\MinutradeApp.Domain\obj\Debug\MinutradeApp.Domain.csprojResolveAssemblyReference.cache
 C:\Minutrade\MinutradeApp\MinutradeApp.Domain\obj\Debug\MinutradeApp.Domain.dll
 C:\Minutrade\MinutradeApp\MinutradeApp.Domain\obj\Debug\MinutradeApp.Domain.pdb
+C:\Users\Igor\Documents\GitHub\IMA\Minutrade\MinutradeApp\MinutradeApp.Domain\bin\Debug\MinutradeApp.Domain.dll
+C:\Users\Igor\Documents\GitHub\IMA\Minutrade\MinutradeApp\MinutradeApp.Domain\bin\Debug\MinutradeApp.Domain.pdb
+C:\Users\Igor\Documents\GitHub\IMA\Minutrade\MinutradeApp\MinutradeApp.Domain\obj\Debug\MinutradeApp.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Igor\Documents\GitHub\IMA\Minutrade\MinutradeApp\MinutradeApp.Domain\obj\Debug\MinutradeApp.Domain.dll
+C:\Users\Igor\Documents\GitHub\IMA\Minutrade\MinutradeApp\MinutradeApp.Domain\obj\Debug\MinutradeApp.Domain.pdb

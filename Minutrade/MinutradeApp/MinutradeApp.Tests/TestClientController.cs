@@ -242,5 +242,123 @@ namespace MinutradeApp.Tests
       Assert.IsTrue(result.StatusCode == HttpStatusCode.OK);
     }
     #endregion
+
+    #region Testes de unidade garantindo o funcionamento da regra conforme o esperado.
+    /// <summary>
+    /// Garante que o validor de CPF está correto.
+    /// </summary>
+    [TestMethod]
+    public void TestCpfValidation()
+    {
+      bool result = ServiceClient.IsCpfValid("49965342229");
+      Assert.IsTrue(result);
+
+      result = ServiceClient.IsCpfValid("111111");
+      Assert.IsFalse(result);
+
+      result = ServiceClient.IsCpfValid("930.762.350-36");
+
+      Assert.IsTrue(result);
+    }
+
+    public Client CreateTestClientValidation()
+    {
+      Client client = new Client();
+      client.Adress = new Adress();
+      client.Adress.Id = Guid.NewGuid();
+      client.Adress.City = "Cidade";
+      client.Adress.Complement = "Apto 999";
+      client.Adress.Country = "Brasil";
+      client.Adress.District = "Bairro";
+      client.Adress.Number = 1000;
+      client.Adress.State = "Estado";
+      client.Adress.Street = "Rua/Av";
+      client.Adress.ZipCode = "25555000";
+      client.Id = Guid.NewGuid();
+      client.AdressId = client.Adress.Id;
+      client.CellPhone = "31111111111";
+      client.Phone = "31111111111";
+      client.Cpf = "49965342229";
+      client.Name = "Nome";
+      client.MaritalStatus = "Solteiro(a)";
+      client.Email = "email@email.com";
+      return client;
+    }
+    /// <summary>
+    /// Testa se o objeto é válido, a regra preconiza que todos os campos precisam estar preenchidos.
+    /// </summary>
+    [TestMethod]
+    public void TestClientValidation()
+    {
+      Client client = CreateTestClientValidation();
+      bool result = ServiceClient.IsClientValid(client);
+      Assert.IsTrue(result);
+      //Testando propriedades de endereço.
+      client.Adress.City = null;
+      result = ServiceClient.IsClientValid(client);
+      Assert.IsFalse(result);
+      
+      client = CreateTestClientValidation();
+      client.Adress.Complement = null;
+      result = ServiceClient.IsClientValid(client);
+      Assert.IsFalse(result);
+
+      client = CreateTestClientValidation();
+      client.Adress.Country = null;
+      result = ServiceClient.IsClientValid(client);
+      Assert.IsFalse(result);
+
+      client = CreateTestClientValidation();
+      client.Adress.District = null;
+      result = ServiceClient.IsClientValid(client);
+      Assert.IsFalse(result);
+
+      client = CreateTestClientValidation();
+      client.Adress.State = null;
+      result = ServiceClient.IsClientValid(client);
+      Assert.IsFalse(result);
+
+      client = CreateTestClientValidation();
+      client.Adress.Street = null;
+      result = ServiceClient.IsClientValid(client);
+      Assert.IsFalse(result);
+
+      client = CreateTestClientValidation();
+      client.Adress.ZipCode = null;
+      result = ServiceClient.IsClientValid(client);
+      Assert.IsFalse(result);
+
+      //Testando propriedades de cliente
+      client = CreateTestClientValidation();
+      client.Cpf = null;
+      result = ServiceClient.IsClientValid(client);
+      Assert.IsFalse(result);
+
+      client = CreateTestClientValidation();
+      client.CellPhone = null;
+      result = ServiceClient.IsClientValid(client);
+      Assert.IsFalse(result);
+
+      client = CreateTestClientValidation();
+      client.Phone = null;
+      result = ServiceClient.IsClientValid(client);
+      Assert.IsFalse(result);
+
+      client = CreateTestClientValidation();
+      client.Email = null;
+      result = ServiceClient.IsClientValid(client);
+      Assert.IsFalse(result);
+
+      client = CreateTestClientValidation();
+      client.MaritalStatus = null;
+      result = ServiceClient.IsClientValid(client);
+      Assert.IsFalse(result);
+
+      client = CreateTestClientValidation();
+      client.Name = null;
+      result = ServiceClient.IsClientValid(client);
+      Assert.IsFalse(result);
+    }
+    #endregion
   }
 }

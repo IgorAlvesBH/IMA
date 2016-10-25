@@ -5,3 +5,10 @@ C:\Minutrade\MinutradeApp\MinutradeApp.AppService\obj\Debug\MinutradeApp.AppServ
 C:\Minutrade\MinutradeApp\MinutradeApp.AppService\obj\Debug\MinutradeApp.AppService.pdb
 C:\Minutrade\MinutradeApp\MinutradeApp.AppService\bin\Debug\MinutradeApp.Domain.dll
 C:\Minutrade\MinutradeApp\MinutradeApp.AppService\bin\Debug\MinutradeApp.Domain.pdb
+C:\Users\Igor\Documents\GitHub\IMA\Minutrade\MinutradeApp\MinutradeApp.AppService\bin\Debug\MinutradeApp.AppService.dll
+C:\Users\Igor\Documents\GitHub\IMA\Minutrade\MinutradeApp\MinutradeApp.AppService\bin\Debug\MinutradeApp.AppService.pdb
+C:\Users\Igor\Documents\GitHub\IMA\Minutrade\MinutradeApp\MinutradeApp.AppService\bin\Debug\MinutradeApp.Domain.dll
+C:\Users\Igor\Documents\GitHub\IMA\Minutrade\MinutradeApp\MinutradeApp.AppService\bin\Debug\MinutradeApp.Domain.pdb
+C:\Users\Igor\Documents\GitHub\IMA\Minutrade\MinutradeApp\MinutradeApp.AppService\obj\Debug\MinutradeApp.AppService.csprojResolveAssemblyReference.cache
+C:\Users\Igor\Documents\GitHub\IMA\Minutrade\MinutradeApp\MinutradeApp.AppService\obj\Debug\MinutradeApp.AppService.dll
+C:\Users\Igor\Documents\GitHub\IMA\Minutrade\MinutradeApp\MinutradeApp.AppService\obj\Debug\MinutradeApp.AppService.pdb

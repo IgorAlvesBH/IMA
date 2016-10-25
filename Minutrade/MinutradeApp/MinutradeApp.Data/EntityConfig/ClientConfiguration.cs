@@ -16,6 +16,10 @@ namespace MinutradeApp.Data.EntityConfig
       HasKey(a => new { a.Cpf });
       Property(a => a.Cpf)
       .HasMaxLength(11);
+      Property(a => a.Phone)
+        .HasMaxLength(12);
+      Property(a => a.CellPhone)
+        .HasMaxLength(12);
     }
   }
 }
